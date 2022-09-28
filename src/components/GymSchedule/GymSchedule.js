@@ -27,10 +27,10 @@ const GymSchedule = () => {
                                 }
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4 col-sm-12 sticky-column'>
+                        <div className='col-lg-4 col-md-4 col-sm-12 user-cart'>
                             <div className='user-info'>
-                                <div className='d-flex justify-content-center align-items-center pt-4'>
-                                    <img className='user-image img-fluid' src={User} alt="" />
+                                <div className='d-flex justify-content-center align-items-center pt-4 '>
+                                    <div><img className='user-image img-fluid' src={User} alt="" /></div>
                                     <div className='ms-4'>
                                         <p className='mb-0'>Sazeduzzaman</p>
                                         <p className='p-0'><i className="fa-duotone fa-location-dot"></i><span className='ms-2'>Dhaka,Bangladesh</span></p>

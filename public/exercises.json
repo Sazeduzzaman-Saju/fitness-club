@@ -3,7 +3,7 @@
     "id": "6334740c0ad74b5dc1020d8b",
     "picture": "https://images.unsplash.com/photo-1643054065479-f0c4121f56eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=633&q=80",
     "age": 23,
-    "time": "5m",
+    "time": 25,
     "name": "Pushups",
     "about": "Eiusmod velit sunt anim velit elit voluptate. Duis qui proident laborum est eu elit pariatur veniam cillum veniam ipsum officia eu. Excepteur officia quis sint non."
   },
@@ -11,7 +11,7 @@
     "id": "6334740c3faa73a8adf39ebe",
     "picture": "https://images.unsplash.com/photo-1520877745935-616158eb7fcc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=633&q=80",
     "age": 26,
-    "time": "5m",
+    "time": 10,
     "name": "Lunges Exercise",
     "about": "Occaecat Lorem incididunt labore ipsum duis quis sit eiusmod. Non laborum proident laboris veniam exercitation non voluptate esse quis incididunt sit officia mollit. Et elit esse commodo fugiat incididunt irure elit Lorem exercitation sit amet. Sunt in exercitation non sit sunt adipisicing consequat in minim eiusmod adipisicing aliquip voluptate anim. Aliquip nostrud aliquip commodo voluptate in laboris mollit eiusmod. Lorem adipisicing pariatur laborum duis."
   },
@@ -19,7 +19,7 @@
     "id": "6334740c8db31225a36b345a",
     "picture": "https://images.unsplash.com/photo-1594737626072-90dc274bc2bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     "age": 35,
-    "time": "5m",
+    "time": 15,
     "name": "Squats",
     "about": "Fugiat irure veniam tempor labore reprehenderit non tempor est. Culpa tempor exercitation elit qui reprehenderit voluptate nostrud nisi ex culpa consequat deserunt nulla sint. Minim quis labore ex in tempor magna ex sit fugiat ad irure incididunt enim. Aliquip duis pariatur id ex voluptate magna. Mollit quis exercitation sunt id excepteur reprehenderit deserunt fugiat labore. Tempor mollit veniam cupidatat adipisicing ut occaecat mollit. Ipsum dolor ut minim id nulla tempor sit sit."
   },
@@ -27,7 +27,7 @@
     "id": "6334740c4ba2f8e519b42a5c",
     "picture": "https://images.unsplash.com/photo-1661680684355-5d0142a936c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     "age": 22,
-    "time": "5m",
+    "time": 5,
     "name": "Standing dumble",
     "about": "Culpa laborum aliquip occaecat occaecat cillum voluptate in cillum ipsum minim occaecat. Labore nulla ut veniam Lorem id consequat cupidatat laborum culpa id adipisicing. Fugiat aute incididunt do aute qui. Est in reprehenderit occaecat elit qui quis adipisicing occaecat. Ut consectetur incididunt sunt quis non culpa. Deserunt proident dolore Lorem non qui labore esse. Lorem esse incididunt elit labore sit."
   },
@@ -35,7 +35,7 @@
     "id": "6334740c029c41431632519f",
     "picture": "https://images.unsplash.com/photo-1626337920103-ae64b9c688e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=566&q=80",
     "age": 21,
-    "time": "5m",
+    "time": 5,
     "name": "Flexible With Ball",
     "about": "Commodo dolore est nostrud esse laborum cillum dolor ea veniam velit aliqua. Aute est nisi in do proident ex occaecat deserunt Lorem elit dolor. Ex nulla ullamco mollit aliquip velit consequat. Dolor nisi ex nisi mollit aute officia dolore nostrud velit. Nostrud et excepteur consectetur ad sint qui consectetur magna."
   },
@@ -43,7 +43,7 @@
     "id": "6334740c77d74acb95be57b6",
     "picture": "https://images.unsplash.com/photo-1661680684479-4574b28062e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     "age": 38,
-    "time": "5m",
+    "time": 5,
     "name": "Morning Running",
     "about": "Duis laboris velit dolore non voluptate voluptate elit. Ipsum exercitation voluptate sunt amet laborum quis. Nisi dolor irure aliqua esse consectetur quis esse dolor et magna. Non aliquip eiusmod reprehenderit eiusmod ut elit enim veniam magna ex nostrud tempor consequat."
   },
@@ -51,15 +51,15 @@
     "id": "6334740c8eea46aea31d606a",
     "picture": "https://images.unsplash.com/photo-1661678731684-054ea789cd77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     "age": 20,
-    "time": "5m",
-    "name": "Dubble Push",
+    "time": 15,
+    "name": "Dumbble Push",
     "about": "Fugiat ea esse anim magna. Incididunt pariatur laborum tempor adipisicing proident in Lorem nisi. Officia quis enim velit commodo labore ut do anim deserunt Lorem. Eiusmod culpa cillum laborum occaecat ullamco nisi. Enim quis eiusmod proident officia nisi velit. Fugiat in sit tempor enim qui esse incididunt qui consectetur deserunt exercitation. Amet eu reprehenderit culpa exercitation amet pariatur aliquip irure officia Lorem."
   },
   {
     "id": "6334740cf4e3f60cd156b62c",
     "picture": "https://images.unsplash.com/photo-1565122751170-4ba9657da1fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
     "age": 32,
-    "time": "5m",
+    "time": 10,
     "name": "Foot Roll",
     "about": "Culpa nulla culpa non ad ea ut anim occaecat. Irure quis occaecat in aliqua sit eiusmod nulla consequat aliqua consequat id. Et occaecat aute sint tempor amet. Adipisicing mollit reprehenderit consequat proident sunt consectetur non ullamco fugiat dolore excepteur proident. Elit reprehenderit Lorem eu ad enim proident magna et tempor. Excepteur tempor aliquip sit eu aliquip excepteur reprehenderit qui do elit deserunt fugiat."
   },
@@ -67,7 +67,7 @@
     "id": "6334740c612888ecfca34633",
     "picture": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=841&q=80",
     "age": 29,
-    "time": "5m",
+    "time": 20,
     "name": "Body Balance",
     "about": "Lorem cillum irure cillum ex. Deserunt qui ut exercitation ullamco nulla voluptate laboris veniam labore aliqua quis. Pariatur ea veniam et nulla proident. Labore commodo minim reprehenderit sit mollit non commodo do veniam deserunt ad nulla nulla duis. Eu et magna voluptate amet fugiat. Mollit enim anim dolor labore aliquip irure aliquip deserunt. Proident sunt exercitation deserunt voluptate eu elit culpa."
   }

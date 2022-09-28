@@ -19,6 +19,12 @@
   background-color: var(--white);
   padding: 10px;
   margin-bottom: 0px;
+  position: sticky;
+  top: 0;
+}
+.user-cart {
+  position: sticky;
+  top: 0;
 }
 .select-button {
   background-color: var(--body-color);
@@ -48,8 +54,4 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
-}
-.sticky-column {
-  position: sticky;
-  top: 0;
 }

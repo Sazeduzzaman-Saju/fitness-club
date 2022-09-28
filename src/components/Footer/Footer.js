@@ -24,16 +24,6 @@ const Footer = () => {
                             ><i className="fab fa-twitter"></i
                             ></a>
 
-                            {/* <!-- Google --> */}
-                            <a className="btn btn-outline-light btn-floating m-1" href="/#!" role="button"
-                            ><i className="fab fa-google"></i
-                            ></a>
-
-                            {/* <!-- Instagram --> */}
-                            <a className="btn btn-outline-light btn-floating m-1" href="/#!" role="button"
-                            ><i className="fab fa-instagram"></i
-                            ></a>
-
                             {/* <!-- Linkedin --> */}
                             <a className="btn btn-outline-light btn-floating m-1" href="/#!" role="button"
                             ><i className="fab fa-linkedin-in"></i
