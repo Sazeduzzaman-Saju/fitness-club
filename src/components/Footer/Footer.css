@@ -1,0 +1,9 @@
+:root {
+  --main-color: #8a2be2;
+  --brand-color: #5e17eb;
+  --white: #ffff;
+  --body-color: #edf1f3;
+}
+.footer {
+  background-color: var(--main-color);
+}
