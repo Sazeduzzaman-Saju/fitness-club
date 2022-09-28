@@ -1,0 +1,28 @@
+:root {
+  --main-color: #8a2be2;
+  --brand-color: #5e17eb;
+  --white: #ffff;
+  --body-color: #edf1f3;
+}
+.navbar {
+  background-color: var(--body-color);
+}
+.brand-logo {
+  width: 75px;
+}
+.profile-icon {
+  color: var(--brand-color);
+}
+.nav-link {
+  color: var(--brand-color) !important;
+}
+.nav-link:hover {
+  color: var(--brand-color) !important;
+  border-bottom: 1px solid var(--main-color);
+  transition: 0.4s;
+}
+.profile-icon a {
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--brand-color) !important;
+}

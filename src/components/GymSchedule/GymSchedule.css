@@ -1,0 +1,55 @@
+:root {
+  --main-color: #8a2be2;
+  --brand-color: #5e17eb;
+  --white: #ffff;
+  --body-color: #edf1f3;
+}
+.user-image {
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 30px;
+}
+.user-infos {
+  background-color: var(--body-color);
+  padding: 10px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+}
+.user-info {
+  background-color: var(--white);
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.select-button {
+  background-color: var(--body-color);
+  border-radius: 30px;
+}
+.select-button:hover {
+  background-color: var(--main-color) !important;
+  color: var(--white) !important;
+}
+.exercise-time {
+  background-color: var(--body-color);
+  border-radius: 5px;
+}
+.activity-btn {
+  border: none;
+  width: 100%;
+  background-color: var(--brand-color);
+  color: var(--white);
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+.activity-btn:hover {
+  background-color: var(--main-color);
+  transition: 0.6s;
+}
+.exercises-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.sticky-column {
+  position: sticky;
+  top: 0;
+}

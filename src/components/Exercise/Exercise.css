@@ -1,0 +1,24 @@
+:root {
+  --main-color: #8a2be2;
+  --brand-color: #5e17eb;
+  --white: #ffff;
+  --body-color: #edf1f3;
+}
+.card-title {
+  font-weight: 600;
+}
+.extra-text {
+  font-weight: 600;
+}
+.exercise-button {
+  width: 100%;
+  text-decoration: none;
+  background-color: var(--brand-color);
+  color: var(--white);
+  padding: 10px 20px;
+  text-align: center;
+}
+.exercise-button:hover {
+  background-color: var(--main-color);
+  color: var(--white);
+}
