@@ -6,7 +6,7 @@ const Exercise = ({ exercise }) => {
     return (
         <div>
             <div className="card">
-                <img src={picture} alt="" />
+                <img className='img-fluid exercise-image' src={picture} alt="" />
                 <div class="card-body">
                     <h5 className="card-title">{name}</h5>
                     <p className="card-text">{about.slice(0, 35)}...</p>

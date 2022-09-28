@@ -22,3 +22,6 @@
   background-color: var(--main-color);
   color: var(--white);
 }
+.exercise-image {
+  height: 200px;
+}

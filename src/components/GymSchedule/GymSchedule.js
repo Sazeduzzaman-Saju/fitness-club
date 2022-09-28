@@ -51,27 +51,19 @@ const GymSchedule = () => {
                                     </div>
                                 </div>
                                 <h4 className='ms-4 ms-4'>Add A Break</h4>
-                                <div className='row mt-3  user-info'>
-                                    <div className='col'>
-                                        <button type="button" className="btn btn-floating select-button">
-                                            05m
-                                        </button>
-                                    </div>
-                                    <div className='col'>
-                                        <button type="button" className="btn btn-floating select-button">
-                                            15m
-                                        </button>
-                                    </div>
-                                    <div className='col'>
-                                        <button type="button" className="btn btn-floating select-button">
-                                            20m
-                                        </button>
-                                    </div>
-                                    <div className='col'>
-                                        <button type="button" className="btn btn-floating select-button">
-                                            25m
-                                        </button>
-                                    </div>
+                                <div className='d-flex mt-3  user-info'>
+                                    <button type="button" className="btn btn-floating select-button ms-3">
+                                        05m
+                                    </button>
+                                    <button type="button" className="btn btn-floating select-button ms-3">
+                                        15m
+                                    </button>
+                                    <button type="button" className="btn btn-floating select-button ms-3">
+                                        20m
+                                    </button>
+                                    <button type="button" className="btn btn-floating select-button ms-3">
+                                        25m
+                                    </button>
                                 </div>
                                 <h4 className='ms-4 mt-4'>Exercise Details</h4>
                                 <div className='row m-3'>
