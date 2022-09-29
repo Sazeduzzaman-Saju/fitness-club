@@ -9,6 +9,11 @@ import BreakTime from '../BreakTime/BreakTime';
 const Cart = ({ cart }) => {
     const [breaks, setBreaks] = useState(0);
 
+    
+    useEffect(() => {
+        localStorage.setItem('break', breaks);
+    }, [breaks])
+
     useEffect(() => {
         const times = document.getElementById('break-time');
         const convertTimes = times.target;
