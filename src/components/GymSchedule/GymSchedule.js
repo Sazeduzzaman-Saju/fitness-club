@@ -6,6 +6,7 @@ import Cart from '../Cart/Cart';
 const GymSchedule = () => {
     const [exercises, setExercises] = useState([]);
     const [cart, setCart] = useState([]);
+
     useEffect(() => {
         fetch('exercises.json')
             .then(res => res.json())

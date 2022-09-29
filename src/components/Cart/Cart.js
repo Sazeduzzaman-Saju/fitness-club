@@ -2,20 +2,21 @@ import User from '../../img/user-profile.jpg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
+import { useState } from 'react';
+import BreakTime from '../BreakTime/BreakTime';
 
 
 
 
 const Cart = ({ cart }) => {
+    const [breaks, setBreaks] = useState(0);
+    console.log(breaks);
 
     let totalTime = 0;
     for (const exercise of cart) {
         totalTime = totalTime + exercise.time
     }
 
-    const addBreak = () => {
-        alert('button clicked')
-    }
     const diffToast = () => {
         toast.success("Activity Complete Successfully!",
             {
@@ -47,20 +48,7 @@ const Cart = ({ cart }) => {
                     </div>
                 </div>
                 <h4 className='ms-4 ms-4'>Add A Break</h4>
-                <div className='d-flex mt-3  user-info'>
-                    <button onClick={addBreak} type="button" className="btn btn-floating select-button ms-3" >
-                        05m
-                    </button>
-                    <button onClick={addBreak} type="button" className="btn btn-floating select-button ms-3"  >
-                        15m
-                    </button>
-                    <button onClick={addBreak} type="button" className="btn btn-floating select-button ms-3" >
-                        20m
-                    </button>
-                    <button onClick={addBreak} type="button" className="btn btn-floating select-button ms-3" >
-                        25m
-                    </button>
-                </div>
+                <BreakTime setBreaks={setBreaks}></BreakTime>
                 <h4 className='ms-4 mt-4'>Exercise Details</h4>
                 <p className='ms-4 ms-4'>Selected Exercise: {cart.length} Items</p>
                 <div className='row m-3'>
@@ -72,7 +60,7 @@ const Cart = ({ cart }) => {
                 <div className='row m-3'>
                     <div className='exercise-time d-flex justify-content-around align-items-center'>
                         <p className='pt-3'>Break Time</p>
-                        <p className='pt-3'>200 Minuit</p>
+                        <p className='pt-3'><span id='break-time'>{breaks}</span> Minuit</p>
                     </div>
                 </div>
                 <button onClick={diffToast} className='activity-btn'>Activity Complete</button>
