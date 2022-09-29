@@ -37,15 +37,15 @@ const GymSchedule = () => {
                                     </div>
                                 </div>
                                 <div className='row mt-3 m-4 user-infos'>
-                                    <div className='col'>
+                                    <div className='col text-center'>
                                         <p className='mb-0'>75 <sub>KG</sub></p>
                                         <p>Weight</p>
                                     </div>
-                                    <div className='col'>
+                                    <div className='col text-center'>
                                         <p className='mb-0'>75<sub>KG</sub></p>
                                         <p>Weight</p>
                                     </div>
-                                    <div className='col'>
+                                    <div className='col text-center'>
                                         <p className='mb-0'>75<sub>KG</sub></p>
                                         <p>Weight</p>
                                     </div>
@@ -74,7 +74,7 @@ const GymSchedule = () => {
                                 </div>
                                 <div className='row m-3'>
                                     <div className='exercise-time d-flex justify-content-around align-items-center'>
-                                        <p className='pt-3'>Exercise Time</p>
+                                        <p className='pt-3'>Break Time</p>
                                         <p className='pt-3'>200 Minuit</p>
                                     </div>
                                 </div>
