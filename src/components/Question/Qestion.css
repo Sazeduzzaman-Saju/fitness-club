@@ -1,0 +1,18 @@
+:root {
+  --main-color: #8a2be2;
+  --brand-color: #5e17eb;
+  --white: #ffff;
+  --body-color: #edf1f3;
+}
+.faq-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--brand-color);
+}
+.accordion-button {
+  background-color: var(--brand-color) !important;
+  color: var(--body-color) !important;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}

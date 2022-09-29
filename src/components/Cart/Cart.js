@@ -2,15 +2,20 @@ import User from '../../img/user-profile.jpg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import BreakTime from '../BreakTime/BreakTime';
-
-
 
 
 const Cart = ({ cart }) => {
     const [breaks, setBreaks] = useState(0);
-    console.log(breaks);
+
+    useEffect(() => {
+        const times = document.getElementById('break-time');
+        const convertTimes = times.target;
+        console.log(convertTimes)
+        localStorage.setItem(times, setBreaks)
+    }, [breaks])
+
 
     let totalTime = 0;
     for (const exercise of cart) {
@@ -39,12 +44,12 @@ const Cart = ({ cart }) => {
                         <p>Weight</p>
                     </div>
                     <div className='col text-center'>
-                        <p className='mb-0'>75<sub>KG</sub></p>
-                        <p>Weight</p>
+                        <p className='mb-0'>6.5</p>
+                        <p>Height</p>
                     </div>
                     <div className='col text-center'>
-                        <p className='mb-0'>75<sub>KG</sub></p>
-                        <p>Weight</p>
+                        <p className='mb-0'>23<sub>y</sub></p>
+                        <p>Age</p>
                     </div>
                 </div>
                 <h4 className='ms-4 ms-4'>Add A Break</h4>
