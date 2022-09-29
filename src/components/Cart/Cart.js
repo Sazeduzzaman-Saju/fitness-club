@@ -7,30 +7,22 @@ import BreakTime from '../BreakTime/BreakTime';
 
 
 const Cart = ({ cart }) => {
+    //  For Local Storage 
     const [breaks, setBreaks] = useState(0);
-
-    
     useEffect(() => {
-        localStorage.setItem('break', breaks);
+        localStorage.setItem('breakTimes', breaks);
     }, [breaks])
 
-    useEffect(() => {
-        const times = document.getElementById('break-time');
-        const convertTimes = times.target;
-        console.log(convertTimes)
-        localStorage.setItem(times, setBreaks)
-    }, [breaks])
-
-
+    //  For Total Time Calculation  
     let totalTime = 0;
     for (const exercise of cart) {
         totalTime = totalTime + exercise.time
     }
-
+    //  For React Button Toast 
     const diffToast = () => {
         toast.success("Activity Complete Successfully!",
             {
-                position: 'top-right'
+                position: 'bottom-right'
             });
     }
     return (
@@ -49,28 +41,30 @@ const Cart = ({ cart }) => {
                         <p>Weight</p>
                     </div>
                     <div className='col text-center'>
-                        <p className='mb-0'>6.5</p>
+                        <p className='mb-0'>6.5<sub>IN</sub></p>
                         <p>Height</p>
                     </div>
                     <div className='col text-center'>
-                        <p className='mb-0'>23<sub>y</sub></p>
+                        <p className='mb-0'>23<sub>Y</sub></p>
                         <p>Age</p>
                     </div>
                 </div>
                 <h4 className='ms-4 ms-4'>Add A Break</h4>
+                {/* //  For Break Time Button Components  */}
                 <BreakTime setBreaks={setBreaks}></BreakTime>
+                {/* //  For Break Time Button Components End */}
                 <h4 className='ms-4 mt-4'>Exercise Details</h4>
                 <p className='ms-4 ms-4'>Selected Exercise: {cart.length} Items</p>
                 <div className='row m-3'>
                     <div className='exercise-time d-flex justify-content-around align-items-center'>
                         <p className='pt-3'>Exercise Time</p>
-                        <p className='pt-3'>{totalTime} Minuit</p>
+                        <p className='pt-3'>{totalTime} Minute </p>
                     </div>
                 </div>
                 <div className='row m-3'>
                     <div className='exercise-time d-flex justify-content-around align-items-center'>
                         <p className='pt-3'>Break Time</p>
-                        <p className='pt-3'><span id='break-time'>{breaks}</span> Minuit</p>
+                        <p className='pt-3'><span id='break-time'>{breaks}</span> Minute </p>
                     </div>
                 </div>
                 <button onClick={diffToast} className='activity-btn'>Activity Complete</button>
