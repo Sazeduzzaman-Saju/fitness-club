@@ -1,0 +1,4 @@
+.sticky-column {
+  position: sticky !important;
+  top: 0;
+}

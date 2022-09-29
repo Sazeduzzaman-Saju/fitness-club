@@ -1,10 +1,12 @@
-
 import User from '../../img/user-profile.jpg';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './Cart.css'
+
+
+
 
 const Cart = ({ cart }) => {
-
-
-
 
     let totalTime = 0;
     for (const exercise of cart) {
@@ -14,8 +16,14 @@ const Cart = ({ cart }) => {
     const addBreak = () => {
         alert('button clicked')
     }
+    const diffToast = () => {
+        toast.success("Activity Complete Successfully!",
+            {
+                position: 'top-right'
+            });
+    }
     return (
-        <div>
+        <div className='sticky-column'>
             <div className='user-info'>
                 <div className='d-flex justify-content-center align-items-center pt-4 '>
                     <div><img className='user-image img-fluid' src={User} alt="" /></div>
@@ -67,8 +75,9 @@ const Cart = ({ cart }) => {
                         <p className='pt-3'>200 Minuit</p>
                     </div>
                 </div>
-                <button className='activity-btn'>Activity Complete</button>
+                <button onClick={diffToast} className='activity-btn'>Activity Complete</button>
             </div>
+            <ToastContainer />
         </div>
     );
 };
