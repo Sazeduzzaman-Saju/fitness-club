@@ -8,7 +8,7 @@ import BreakTime from '../BreakTime/BreakTime';
 
 const Cart = ({ cart }) => {
     //  For Local Storage 
-    const [breaks, setBreaks] = useState(0);
+    const [breaks, setBreaks] = useState(10);
     useEffect(() => {
         localStorage.setItem('breakTimes', breaks);
     }, [breaks])
